@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PhotoTagger", "PhotoTagger\PhotoTagger.pyproj", "{9FA76719-7492-469D-89C8-4DF1A6B62A06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FA76719-7492-469D-89C8-4DF1A6B62A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA76719-7492-469D-89C8-4DF1A6B62A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F3E9959-CFFB-4893-A9BC-8874B13AB56F}
+	EndGlobalSection
+EndGlobal
