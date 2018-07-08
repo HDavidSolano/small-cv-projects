@@ -28,7 +28,11 @@ class camVideoStream:
             self.frameNum += 1
     def read(self):
         return self.frame, self.frameTime
- 
+    
+    def read_bytes(self):
+        ret, jpeg = cv2.imencode('.jpg', self.frame)
+        return jpeg.tobytes()
+    
     def stop(self):
         self.stopped = True
         self.stream.release()
